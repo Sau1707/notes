@@ -1,0 +1,141 @@
+{
+  "main": {
+    "id": "fc4474d1193370ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d611c23a1f7c092",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1f97edd6a0ec4de7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Nextjs/Prisma.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b34d5d56c7c6604d",
+    "type": "split",
+    "children": [
+      {
+        "id": "c87fbcfddf7e6e81",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd762f2cfdad79ec",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "df586e29f5cd9238",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1d2fc8bdaa037077",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "310042a90da0c520",
+    "type": "split",
+    "children": [
+      {
+        "id": "07f3b7c10500f5ff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "277c30cdbcb97880",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Nextjs/Prisma.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "73b9fb0662e15724",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Nextjs/Prisma.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1072039289d20514",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c0eca3ef44fa9867",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Nextjs/Prisma.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1f97edd6a0ec4de7",
+  "lastOpenFiles": []
+}
