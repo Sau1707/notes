@@ -1,11 +1,25 @@
 A databases inegration  with intuitive data model, automated migrations, type-safety & auto-completion. Work perferly witj nextjs but not only.
 
-- [Webpage](https://www.prisma.io/)
+- [Website](https://www.prisma.io/)
 - [Documentation](https://www.prisma.io/docs/reference/api-reference/prisma-client-reference)
 
 ## Installation:
 ```bash
 npm install prisma --save-dev
+```
+
+
+## Eviroments
+During development and small production sqlite can be used as a database, after the migration it's done by prisma
+```prisma
+datasource db {
+    provider = "sqlite"
+    url      = env("DATABASE_URL")
+}
+```
+Into the `.env` file add
+```env
+DATABASE_URL="file:database.db"
 ```
 
 
@@ -32,19 +46,10 @@ Add the following script in a `prisma.js` file in the `prisma` folder, then impo
 ```js
 import { PrismaClient } from "@prisma/client";
 
-  
-
 export const prisma = global.prisma || new PrismaClient();
-
 export const filePath = (fileName) => {
-
-    console.log(process.cwd());
-
     return `${process.cwd()}\\prisma\\files\\${fileName}`;
-
 };
-
-  
 
 if (process.env.NODE_ENV !== "production") global.prisma = prisma;
 ```
