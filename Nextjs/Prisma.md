@@ -3,7 +3,7 @@ A databases inegration  with intuitive data model, automated migrations, type-sa
 - [Website](https://www.prisma.io/)
 - [Documentation](https://www.prisma.io/docs/reference/api-reference/prisma-client-reference)
 
-## Installation:
+## Installation
 ```bash
 npm install prisma --save-dev
 ```
